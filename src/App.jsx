@@ -1,11 +1,12 @@
-import { useState } from "react";
-
+import Winter from "./components/winter";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div>Hello weather app</div>;
+  return (
+    <div>
+      <Winter />
+    </div>
+  );
 }
 
 export default App;
