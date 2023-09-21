@@ -8,9 +8,13 @@
 .rainyBackground {
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 80rem;
   filter: blur(3px);
+}
+
+.rainImg {
+  width: 100%;
+  display: block;
 }
 
 .rainyText {
