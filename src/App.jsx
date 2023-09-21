@@ -1,11 +1,14 @@
 import { useState } from "react";
 
 import "./App.css";
+import RainyWeather from "./component/rainyWeather";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div>Hello weather app</div>;
+  return (
+    <div className="App">
+      <RainyWeather />
+    </div>
+  );
 }
 
 export default App;
