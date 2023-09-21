@@ -10,8 +10,6 @@ function Sunny() {
       <div className={styles.sun}></div>
       <div className={styles.sky}></div>
       <h1>It's a Sunny Day!</h1>
-
-      <button onclick>Sunny</button>
     </div>
   );
 }

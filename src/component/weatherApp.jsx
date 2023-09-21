@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Sunny from "./sunny";
 import RainyWeather from "./RainyWeather";
+import Winter from "./winter";
+import "../styles/weatherApp.css";
 function WeatherApp() {
   const [weatherData, setWeatherData] = useState({
     temperature: 85,
@@ -48,7 +50,7 @@ function WeatherApp() {
         >
           Rainy
         </button>
-        {/* <button
+        <button
           className="winterButton"
           onClick={() =>
             updateWeatherData({
@@ -60,10 +62,11 @@ function WeatherApp() {
           }
         >
           Winter
-        </button> */}
+        </button>
       </div>
       {weatherData.condition === "sunny" && <Sunny />}
       {weatherData.condition === "rainy" && <RainyWeather />}
+      {weatherData.condition === "winter" && <Winter />}
     </div>
   );
 }

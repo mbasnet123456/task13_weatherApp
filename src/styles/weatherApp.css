@@ -1,0 +1,47 @@
+/* .weatherApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weatherData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: wrap;
+} */
+
+.sunnyButton {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.rainyButton {
+  background-color: blue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.winterButton {
+  background-color: grey; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.weatherButtons {
+  display: flex;
+  gap: 0.5rem;
+}
